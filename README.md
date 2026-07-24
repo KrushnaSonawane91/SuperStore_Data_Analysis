@@ -129,15 +129,11 @@ Contains:
 
 ### Main Dashboard
 
-```
-(Add dashboard screenshot)
-```
+![Dashboard](Screenshots/dashboard.png)
 
 ### Information Page
 
-```
-(Add information page screenshot)
-```
+![Information Page](Screenshots/information_page.png)
 
 ---
 
@@ -185,11 +181,11 @@ Global-Superstore-PowerBI/
 
 **Krushna Sonawane**
 
-📧 Email: your-email@example.com
+📧 Email: krushnasonawane91@gmail.com
 
-💼 LinkedIn: https://linkedin.com/in/your-profile
+💼 LinkedIn: https://www.linkedin.com/in/krushna-sonawane-223725288/
 
-🐙 GitHub: https://github.com/your-username
+🐙 GitHub: https://github.com/KrushnaSonawane91
 
 ---
 
