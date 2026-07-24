@@ -125,7 +125,6 @@ Contains:
 
 ## 📷 Dashboard Preview
 
-> Add screenshots of your dashboard here.
 
 ### Main Dashboard
 
