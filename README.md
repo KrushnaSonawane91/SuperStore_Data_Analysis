@@ -129,11 +129,11 @@ Contains:
 
 ### Main Dashboard
 
-![Dashboard](Screenshots/dashboard.png)
+![Dashboard](Screenshots/Dashboard.png)
 
 ### Information Page
 
-![Information Page](Screenshots/information_page.png)
+![Information Page](Screenshots/Information Page.png)
 
 ---
 
