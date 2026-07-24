@@ -133,7 +133,7 @@ Contains:
 
 ### Information Page
 
-![Information Page](Screenshots/Information Page.png)
+![Information Page](Screenshots/Information_Page.png)
 
 ---
 
