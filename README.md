@@ -1,14 +1,40 @@
-# 📊 Global Superstore Sales Analysis Dashboard | Power BI
+# 📊 Global Superstore Sales Analysis Dashboard
 
-A professional and interactive **Power BI dashboard** built using the Global Superstore dataset to analyze sales, profit, customer segments, product categories, regional performance, and shipping methods.
-
-## 📌 Project Overview
-
-This dashboard provides business insights by transforming raw sales data into interactive visualizations. It helps users understand business performance, identify trends, and make data-driven decisions.
+An interactive **Business Intelligence Dashboard** built using **Power BI, PostgreSQL, SQL, Power Query, and DAX** to analyze sales performance, profitability, customer behavior, product categories, and regional trends using the Global Superstore dataset.
 
 ---
 
-## 🚀 Dashboard Features
+## 📌 Project Overview
+
+This project demonstrates an end-to-end data analytics workflow, from storing data in PostgreSQL to creating an interactive Power BI dashboard.
+
+The dashboard provides valuable business insights through KPIs, charts, and interactive filters, helping users analyze sales trends, profitability, customer segments, shipping performance, and regional sales.
+
+---
+
+## 🚀 Project Workflow
+
+1. Imported the Global Superstore dataset into **PostgreSQL**.
+2. Performed business analysis using **SQL queries**.
+3. Connected **Power BI** to PostgreSQL.
+4. Cleaned and transformed data using **Power Query**.
+5. Created KPIs and calculated measures using **DAX**.
+6. Designed an interactive dashboard with slicers and visualizations.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Microsoft Power BI
+- PostgreSQL
+- SQL
+- Power Query
+- DAX (Data Analysis Expressions)
+- Microsoft Excel
+
+---
+
+## 📊 Dashboard Features
 
 - 📈 Sales & Profit Analysis
 - 💰 KPI Cards
@@ -30,58 +56,59 @@ This dashboard provides business insights by transforming raw sales data into in
 
 | KPI | Value |
 |------|--------|
-| Total Sales | $13M |
-| Total Profit | $1.47M |
-| Total Orders | 25K |
-| Average Order Value | $505 |
+| 💰 Total Sales | $13M |
+| 📈 Total Profit | $1.47M |
+| 📦 Total Orders | 25K |
+| 🛒 Average Order Value | $505 |
 
 ---
 
 ## 💡 Key Business Insights
 
 - 🌍 Central region generated the highest sales.
-- 💻 Technology is the most profitable category.
+- 💻 Technology was the most profitable category.
 - 📱 Mobile Phones generated the highest revenue.
-- 👥 Consumer is the highest contributing customer segment.
-- 🚚 Standard Class is the most frequently used shipping mode.
-- 📈 Overall business performance shows positive profitability.
+- 👥 Consumer was the highest contributing customer segment.
+- 🚚 Standard Class was the most frequently used shipping mode.
+- 📈 Overall business performance remained profitable.
+- 📊 SQL analysis identified top-performing and loss-making sub-categories.
+- 💰 Discount analysis highlighted its impact on profitability.
 
 ---
 
-## 🛠 Tools & Technologies
+## 🗄️ SQL Analysis
 
-- Microsoft Power BI
-- Power Query
-- DAX (Data Analysis Expressions)
-- Microsoft Excel
+The SQL queries included in this project perform the following business analyses:
+
+- Calculate Total Sales
+- Calculate Total Profit
+- Calculate Total Orders
+- Calculate Average Order Value
+- Top 10 Products by Sales
+- Sales & Profit by Category
+- Sales & Profit by Region
+- Top 10 Customers by Sales
+- Customer Segment Analysis
+- Most Profitable Sub-Categories
+- Loss-Making Sub-Categories
+- Discount Impact on Profit
+
+The SQL script is available in:
+
+```text
+SQL/analysis_queries.sql
+```
 
 ---
 
 ## 📂 Dataset Information
 
-- Dataset: Global Superstore
-- Total Records: 51,290
-- Total Columns: 17
-
-### Dataset Columns
-
-- Order ID
-- Order Date
-- Ship Date
-- Customer Name
-- Customer ID
-- Segment
-- Category
-- Sub-Category
-- Product Name
-- Region
-- State
-- Sales
-- Profit
-- Quantity
-- Discount
-- Shipping Cost
-- Ship Mode
+| Item | Details |
+|------|---------|
+| Dataset | Global Superstore |
+| Records | 51,290 |
+| Columns | 17 |
+| Database | PostgreSQL |
 
 ---
 
@@ -89,26 +116,22 @@ This dashboard provides business insights by transforming raw sales data into in
 
 ### 🏠 Dashboard
 
-Displays:
-
 - KPI Cards
 - Sales & Profit Analysis
 - Regional Analysis
 - Category Analysis
-- Segment Analysis
+- Customer Segment Analysis
 - Shipping Analysis
 - Interactive Filters
 
-### ℹ Information Page
-
-Contains:
+### ℹ️ Dashboard Guide
 
 - Dashboard Overview
 - Dataset Information
 - KPI Explanation
 - Dashboard Features
 - Available Filters
-- Business Insights
+- Key Business Insights
 
 ---
 
@@ -117,20 +140,21 @@ Contains:
 - Which region generates the highest sales?
 - Which category is the most profitable?
 - Which products generate the highest revenue?
-- Which customer segment performs best?
-- Which shipping mode is used the most?
+- Which customer segment contributes the most sales?
+- Which shipping mode is used most frequently?
 - What is the average order value?
+- How do discounts affect profitability?
+- Which sub-categories generate losses?
 
 ---
 
 ## 📷 Dashboard Preview
 
-
 ### Main Dashboard
 
 ![Dashboard](Screenshots/Dashboard.png)
 
-### Information Page
+### Dashboard Guide
 
 ![Information Page](Screenshots/Information_Page.png)
 
@@ -138,38 +162,44 @@ Contains:
 
 ## 📥 How to Use
 
-1. Download the `.pbix` file.
-2. Open it using **Microsoft Power BI Desktop**.
-3. Explore the dashboard using the interactive slicers.
-4. Click on visuals to apply cross-filtering.
-5. Navigate to the Information page for dashboard documentation.
+1. Clone or download this repository.
+2. Open the `.pbix` file using **Microsoft Power BI Desktop**.
+3. Restore or connect the PostgreSQL database (if required).
+4. Refresh the data.
+5. Explore the dashboard using interactive slicers and charts.
 
 ---
 
 ## 📁 Project Structure
 
-```
-Global-Superstore-PowerBI/
+```text
+Global-Superstore-Sales-Analysis/
 │
-├── Superstore.pbix
-├── LICENSE
 ├── README.md
+├── LICENSE
+├── Superstore.pbix
+├── global_superstore.csv
+├── SQL/
+│   └── analysis_queries.sql
 ├── Screenshots/
 │   ├── Dashboard.png
 │   └── Information_Page.png
-└── global_superstore.csv
 ```
 
 ---
 
 ## 📌 Skills Demonstrated
 
+- SQL
+- PostgreSQL
 - Data Cleaning
 - Data Transformation
 - Data Modeling
-- DAX Calculations
-- Data Visualization
+- Power Query
+- DAX
+- KPI Development
 - Dashboard Design
+- Data Visualization
 - Business Intelligence
 - Business Analysis
 - Interactive Reporting
@@ -188,6 +218,6 @@ Global-Superstore-PowerBI/
 
 ---
 
-## ⭐ If you found this project useful
+## ⭐ Support
 
-Please consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
