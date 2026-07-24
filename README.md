@@ -151,13 +151,13 @@ Contains:
 ```
 Global-Superstore-PowerBI/
 │
-├── Dashboard.pbix
-├── Dataset.xlsx
+├── Superstore.pbix
+├── LICENSE
 ├── README.md
 ├── Screenshots/
 │   ├── Dashboard.png
-│   └── Information.png
-└── LICENSE
+│   └── Information_Page.png
+└── global_superstore.csv
 ```
 
 ---
